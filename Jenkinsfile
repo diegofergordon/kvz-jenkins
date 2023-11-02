@@ -16,7 +16,7 @@ pipeline {
         stage('Download Sources') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://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@github.com/diegofergordon/kvz-api-bank.git'
+                git 'https://github.com/diegofergordon/kvz-api-bank.git'
             }
         }
         stage('Maven Build') {
